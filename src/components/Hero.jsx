@@ -53,7 +53,10 @@ const Hero = () => {
         });
       }
     },
-    { dependencies: [currentIndex], revertOnUpdate: true }
+    {
+      dependencies: [currentIndex],
+      revertOnUpdate: true,
+    }
   );
   useGSAP(() => {
     gsap.set("#video-frame", {
@@ -107,7 +110,7 @@ const Hero = () => {
           </div>
           <video
             ref={nextVideoRef}
-            src={getVideoSrc(upcomingVideoIndex)}
+            src={getVideoSrc(currentIndex)}
             loop
             id="next-video"
             muted
