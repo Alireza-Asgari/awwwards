@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -8,7 +9,8 @@ export default function App() {
       <Navbar />
       <Hero />
       <About />
-      <section className="bg-blue-300 w-full h-screen"></section>
+      <Features />
+      {/* <section className="bg-blue-300 w-full h-screen"></section> */}
     </main>
   );
 }
