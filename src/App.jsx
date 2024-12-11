@@ -2,6 +2,7 @@ import About from "./components/About";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Story from "./components/Story";
 
 export default function App() {
   return (
@@ -10,7 +11,7 @@ export default function App() {
       <Hero />
       <About />
       <Features />
-      {/* <section className="bg-blue-300 w-full h-screen"></section> */}
+      <Story />
     </main>
   );
 }
