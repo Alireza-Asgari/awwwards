@@ -3,7 +3,7 @@ import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Story from "./components/Story";
-
+import Contact from "./components/Contact";
 export default function App() {
   return (
     <main className="relative min-h-screen w-screen overflow-x-hidden">
@@ -12,6 +12,7 @@ export default function App() {
       <About />
       <Features />
       <Story />
+      <Contact />
     </main>
   );
 }
