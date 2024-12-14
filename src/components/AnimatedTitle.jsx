@@ -2,7 +2,6 @@ import gsap from "gsap";
 import React, { useEffect, useRef } from "react";
 
 function AnimatedTitle({ title, containerClass }) {
-  console.log(title);
   const containerRef = useRef(null);
   useEffect(() => {
     const ctx = gsap.context(() => {

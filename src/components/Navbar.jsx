@@ -16,8 +16,6 @@ function Navbar() {
 
   const [isNavVisible, setIsNavVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-  console.log(currentScrollY, "current");
-  console.log(lastScrollY, "last");
 
   const toggleAudioIndicator = () => {
     setIsAudioPlaying((prev) => !prev);
